@@ -1,0 +1,17 @@
+{
+  "name": "vee-infinite-loop",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@vee-validate/rules": "^4.0.0-alpha.1",
+    "vee-validate": "^4.0.0-alpha.4",
+    "vue": "^3.0.0-rc.1"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "vite": "^1.0.0-rc.1"
+  }
+}
