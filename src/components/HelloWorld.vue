@@ -1,7 +1,7 @@
 <template>
   <h1>Register</h1>
   <Form>
-    <Field as="input" rules="required" name="login" />
+    <Field as="input" :rules="{ required: true }" name="login" />
     <ErrorMessage name="login" as="div"/>
   </Form>
 
