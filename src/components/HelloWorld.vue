@@ -1,23 +1,25 @@
 <template>
-  <h1>Register</h1>
-  <Form>
-    <Field as="input" rules="required" name="login" />
-    <ErrorMessage name="login" as="div"/>
-  </Form>
-
+  <form @submit.prevent="register()">
+    <label for="name">Name</label>
+    <input id="name" v-model="name.value" />
+    <div class="error">{{ name.errorMessage }}</div>
+    <button :disabled="formMeta.invalid">Register</button>
+  </form>
 </template>
 
-<script>
-import { defineRule, ErrorMessage, Form, Field } from 'vee-validate'
-import { required } from '@vee-validate/rules'
+<script lang="ts">
+import { defineComponent } from 'vue';
+import { useField, useForm } from 'vee-validate';
 
-defineRule('required', required);
-
-export default {
-  components: {
-    Form,
-    Field,
-    ErrorMessage
+export default defineComponent({
+  name: 'Register',
+  setup() {
+    const { form, meta: formMeta, values: formValues } = useForm(/*{ initialValues: { name: 'JB' } }*/);
+    // add a `name` field to the form, initialized with 'JB'
+    const name = useField('name', { required: true }, { form, initialValue: 'JB' });
+    function register() {
+    }
+    return { name, formMeta, register };
   }
-}
+});
 </script>

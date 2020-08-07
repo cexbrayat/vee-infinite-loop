@@ -241,10 +241,10 @@
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
 
-"@vee-validate/rules@^4.0.0-alpha.1":
-  version "4.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@vee-validate/rules/-/rules-4.0.0-alpha.1.tgz#f41796c4dcc19cbb0e7d06b31719d70f63207693"
-  integrity sha512-9FJYYVD8QKDBGQ7D07TwsGybI5vwn+R5Yw/kxzyG2JTfSFXehmtjTfLKpziQ1WFvC1HftcPHNwe+K4mVykJyXA==
+"@vee-validate/rules@4.0.0-alpha.2":
+  version "4.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@vee-validate/rules/-/rules-4.0.0-alpha.2.tgz#9bad2cd7eb82eed8303020f78fa537f2634da96d"
+  integrity sha512-pkFK9d7P1yNtsoAUWRD7fDafigF4dmL6LlGBczs95bSTwj8qKzerksB/eJ79omSQjYYKP5DA5LyIuKSltUyWzQ==
 
 "@vue/compiler-core@3.0.0-rc.4":
   version "3.0.0-rc.4"
@@ -1944,10 +1944,10 @@ vary@^1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vee-validate@^4.0.0-alpha.4:
-  version "4.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-4.0.0-alpha.4.tgz#ab26c2d2ade7ca0172c3ff2649bb540d65fccecb"
-  integrity sha512-jAm8UtMMdY2ZQ+NpQSNWOuDorzXgM89n06kjx0k6QMBnggbtCnuSvrqLrezCn/hA/0kBusJtPxKgWDflDgPg9A==
+vee-validate@4.0.0-alpha.6:
+  version "4.0.0-alpha.6"
+  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-4.0.0-alpha.6.tgz#90b15145c6bd270e58e1e7a4aec79b789a38869a"
+  integrity sha512-GiL3Lr3AHss1Q18lmzTMB62XQjSJT9FZoJ1XzJPgfn+H/09BcMdEr26KW2ph6dTTTKB7OxkMGJKEr+/fMclQMQ==
 
 vite@^1.0.0-rc.1:
   version "1.0.0-rc.3"
