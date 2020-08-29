@@ -8,10 +8,10 @@
   "dependencies": {
     "@vee-validate/rules": "4.0.0-alpha.2",
     "vee-validate": "4.0.0-alpha.9",
-    "vue": "3.0.0-rc.4"
+    "vue": "3.0.0-rc.9"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "3.0.0-rc.4",
+    "@vue/compiler-sfc": "3.0.0-rc.9",
     "vite": "^1.0.0-rc.1"
   }
 }
