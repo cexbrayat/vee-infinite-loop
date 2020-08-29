@@ -241,10 +241,10 @@
     "@types/express-serve-static-core" "*"
     "@types/mime" "*"
 
-"@vee-validate/rules@^4.0.0-alpha.1":
-  version "4.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/@vee-validate/rules/-/rules-4.0.0-alpha.1.tgz#f41796c4dcc19cbb0e7d06b31719d70f63207693"
-  integrity sha512-9FJYYVD8QKDBGQ7D07TwsGybI5vwn+R5Yw/kxzyG2JTfSFXehmtjTfLKpziQ1WFvC1HftcPHNwe+K4mVykJyXA==
+"@vee-validate/rules@4.0.0-alpha.2":
+  version "4.0.0-alpha.2"
+  resolved "https://registry.yarnpkg.com/@vee-validate/rules/-/rules-4.0.0-alpha.2.tgz#9bad2cd7eb82eed8303020f78fa537f2634da96d"
+  integrity sha512-pkFK9d7P1yNtsoAUWRD7fDafigF4dmL6LlGBczs95bSTwj8qKzerksB/eJ79omSQjYYKP5DA5LyIuKSltUyWzQ==
 
 "@vue/compiler-core@3.0.0-rc.4":
   version "3.0.0-rc.4"
@@ -265,7 +265,7 @@
     "@vue/compiler-core" "3.0.0-rc.4"
     "@vue/shared" "3.0.0-rc.4"
 
-"@vue/compiler-sfc@^3.0.0-rc.1":
+"@vue/compiler-sfc@3.0.0-rc.4", "@vue/compiler-sfc@^3.0.0-rc.1":
   version "3.0.0-rc.4"
   resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.0.0-rc.4.tgz#cdd8154c3a6a4dc34405fbdb75db4a55db2fae26"
   integrity sha512-zY2F+mk5y9TDF2kzLVU9JmI55sNJQEXmI3STuSbyaSKun2Tfhw4A43AY/TXTI2aHuIWBXnZWzjBG/29SMZxvNQ==
@@ -1944,10 +1944,10 @@ vary@^1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vee-validate@^4.0.0-alpha.4:
-  version "4.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-4.0.0-alpha.4.tgz#ab26c2d2ade7ca0172c3ff2649bb540d65fccecb"
-  integrity sha512-jAm8UtMMdY2ZQ+NpQSNWOuDorzXgM89n06kjx0k6QMBnggbtCnuSvrqLrezCn/hA/0kBusJtPxKgWDflDgPg9A==
+vee-validate@4.0.0-alpha.9:
+  version "4.0.0-alpha.9"
+  resolved "https://registry.yarnpkg.com/vee-validate/-/vee-validate-4.0.0-alpha.9.tgz#b1148b0104c9b451a388c9e01f38f0795daf8ca6"
+  integrity sha512-dzJ3nGIeEkunEU6y9J0khKw/YwLzzLHkPFQ0tsBu3WdOXqrMoJ3vyBn2TUHy9hlpPqMYUcu71dlSPtfHDNAzrw==
 
 vite@^1.0.0-rc.1:
   version "1.0.0-rc.3"
@@ -2005,7 +2005,7 @@ vite@^1.0.0-rc.1:
     vue "^3.0.0-rc.1"
     ws "^7.2.3"
 
-vue@^3.0.0-rc.1:
+vue@3.0.0-rc.4, vue@^3.0.0-rc.1:
   version "3.0.0-rc.4"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.0.0-rc.4.tgz#f17b32914c8add7f4792d618eb4f1358ff4222e8"
   integrity sha512-nBmuGl/M2LEHn5Db+9Xm0cJoC7yKpx+9RJJObVMLUB4ru7z+ysL4ugKuag+1ehvl6SnljbvYOcuQeGLLvKK07w==
