@@ -6,12 +6,12 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@vee-validate/rules": "^4.0.0-alpha.1",
-    "vee-validate": "^4.0.0-alpha.4",
-    "vue": "^3.0.0-rc.1"
+    "@vee-validate/rules": "4.0.1",
+    "vee-validate": "4.0.1",
+    "vue": "3.0.3"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.0-rc.1",
-    "vite": "^1.0.0-rc.1"
+    "@vue/compiler-sfc": "3.0.3",
+    "vite": "1.0.0-rc.13"
   }
 }
